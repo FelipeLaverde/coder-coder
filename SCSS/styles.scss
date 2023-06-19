@@ -1,0 +1,48 @@
+// colores
+$verdeclaro: #13e0b7;
+$morado: #840598;
+$azulM: #6904b5;
+$blanco: #fff;
+$negro: #000;
+
+// Fuentes
+$gothic: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+$helve: "Helvetica Neue",Helvetica,Arial,sans-serif;
+$impact: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+$trebu: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: $verdeclaro;
+      }
+.container-fluid {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+.navbar-inverse {
+        background-color: $morado;
+        border-color: $azulM;
+        font-family: $gothic;
+    }
+    body {
+        font-family: $helve;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: $blanco;
+        background-color: $negro;
+    }
+
+    h2 {
+        font-family: $impact;
+    }
+
+    h1 { 
+        font-family: $gothic;
+    }
+p {
+    font-family: $trebu;
+}
